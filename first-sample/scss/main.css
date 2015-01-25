@@ -1,79 +1,114 @@
-body,section,form,header,ul,li,button,input,img{
-    padding: 0;
-    margin: 0;
-    border: none;
-}
+/* line 6, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
+body, section, form, header, ul, li, button, input, img {
+  padding: 0;
+  margin: 0;
+  border: none; }
 
+/* line 12, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
 body {
-    font-size: 62.5%;
-}
+  font-size: 62.5%; }
 
+/* line 16, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
 section.hero {
-    max-width: 100em;
-    margin: 0 auto;
-    background-image: url(../img/find-an-agent-hero.png);
-    background-size: cover;
-    color: white;
-    padding-bottom: 4em;
-}
+  max-width: 100em;
+  margin: 0 auto;
+  background-image: url(../img/find-an-agent-hero.png);
+  background-size: cover;
+  color: white;
+  padding-bottom: 4em; }
 
+/* line 25, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
 section.hero header img {
-    float: left;
-    width: 120px;
-    height: 50px;
-    margin-left: 1em;
-    margin-top: 1em;
-}
-
+  float: left;
+  width: 120px;
+  height: 50px;
+  margin-left: 1em;
+  margin-top: 1em; }
+/* line 33, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
 section.hero header ul {
-    float: right;
-    margin-right: 1em;
-    margin-top: 1em;
-}
-
-section.hero header ul li{
+  float: right;
+  margin-right: 1em;
+  margin-top: 1em; }
+  /* line 37, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
+  section.hero header ul li {
     list-style: none;
     float: left;
     margin-left: 2px;
-    padding: .2em;  
-    font-size: 1.4em;
-}
-
-section.hero header ul li:last-child {
+    padding: 0.2em;
+    font-size: 1.4em; }
+  /* line 44, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
+  section.hero header ul :last-child {
     border: 1px solid white;
-     border-radius: 4px;
-}
+    border-radius: 4px; }
 
+/* line 51, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
 section.hero h1 {
-    clear: both;
-    font-size: 4em;
-    text-align: center;
-    padding-top: 2em;
-}
+  clear: both;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 2em; }
 
+/* line 58, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
 section.hero h2 {
-    font-size: 2em;
-    text-align: center;
-}
+  font-size: 2em;
+  text-align: center; }
 
+/* line 63, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
 section.hero form {
-    text-align: center;
-}
+  text-align: center; }
 
+/* line 67, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
 section.hero form input {
-    width: 20em;
-    height: 2em;
-    background: rgba(255,255,255,.2);
-}
+  width: 20em;
+  height: 2em;
+  background: rgba(255, 255, 255, 0.2); }
 
-section.hero form input.placeholder {
-
-}
-
+/* line 77, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
 section.hero form button {
-    background-color: lightgreen;
-    color: white;
-    padding: .5em;
-    height: 2em;
-    font-size: 1em;
-}
+  background-color: lightgreen;
+  color: white;
+  padding: 0.5em;
+  height: 2em;
+  font-size: 1em; }
+
+/* line 85, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
+section.numbers {
+  max-width: 100em;
+  margin: 0 auto;
+  position: relative;
+  top: -3em; }
+  /* line 89, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
+  section.numbers ul {
+    background: white;
+    margin: 0 10%;
+    border: 1px solid #ccc; }
+    /* line 93, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
+    section.numbers ul:after {
+      clear: both;
+      display: block;
+      content: ''; }
+    /* line 98, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
+    section.numbers ul li {
+      list-style: none;
+      display: block;
+      float: left;
+      width: 25%;
+      position: relative;
+      text-align: center;
+      padding: 3em 0; }
+      /* line 106, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
+      section.numbers ul li h3 {
+        font-size: 1.6em;
+        font-weight: 1.2; }
+      /* line 110, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
+      section.numbers ul li:after {
+        content: '';
+        background: #ccc;
+        display: block;
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0; }
+
+/*# sourceMappingURL=main.css.map */

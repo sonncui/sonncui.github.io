@@ -1,0 +1,125 @@
+@mixin common-section {
+    max-width: 100em;
+    margin: 0 auto;
+}
+
+body,section,form,header,ul,li,button,input,img{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+section.hero {
+    @include common-section();
+    background-image: url(../img/find-an-agent-hero.png);
+    background-size: cover;
+    color: white;
+    padding-bottom: 4em;
+}
+
+section.hero header {
+    img {
+        float: left;
+    width: 120px;
+    height: 50px;
+    margin-left: 1em;
+    margin-top: 1em;
+    }
+    
+    ul {
+    float: right;
+    margin-right: 1em;
+    margin-top: 1em;
+    li {
+        list-style: none;
+        float: left;
+        margin-left: 2px;
+        padding: .2em;  
+        font-size: 1.4em;
+        }
+        :last-child {
+            border: 1px solid white;
+            border-radius: 4px;
+        }
+    }
+}
+
+section.hero h1 {
+    clear: both;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 2em;
+}
+
+section.hero h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+section.hero form {
+    text-align: center;
+}
+
+section.hero form input {
+    width: 20em;
+    height: 2em;
+    background: rgba(255,255,255,.2);
+}
+
+section.hero form input.placeholder {
+
+}
+
+section.hero form button {
+    background-color: lightgreen;
+    color: white;
+    padding: .5em;
+    height: 2em;
+    font-size: 1em;
+}
+
+section.numbers {
+    @include common-section();
+    position: relative;
+    top: -3em;
+    ul {
+        background: white;
+        margin: 0 10%;
+        border: 1px solid #ccc;
+        &:after {
+            clear:both;
+            display: block;
+            content: '';
+        }
+        li {
+            list-style: none;
+            display: block;
+            float: left;
+            width: 25%;
+            position: relative;
+            text-align: center;
+            padding: 3em 0;
+            h3 {
+                font-size: 1.6em;
+                font-weight: 1.2;
+            }
+            &:after {
+                content: '';
+                background: #ccc;
+                display: block;
+                width: 1px;
+                height: 100%;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            &:last-child {
+//                display: ;
+            }
+        }
+    }
+}
