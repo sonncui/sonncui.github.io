@@ -94,13 +94,12 @@ section.numbers {
       float: left;
       width: 25%;
       position: relative;
-      text-align: center;
-      padding: 3em 0; }
-      /* line 106, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
+      text-align: center; }
+      /* line 105, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
       section.numbers ul li h3 {
         font-size: 1.6em;
         font-weight: 1.2; }
-      /* line 110, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
+      /* line 109, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
       section.numbers ul li:after {
         content: '';
         background: #ccc;
@@ -110,5 +109,8 @@ section.numbers {
         position: absolute;
         right: 0;
         top: 0; }
+      /* line 119, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/main.scss */
+      section.numbers ul li:last-child:after {
+        display: none; }
 
 /*# sourceMappingURL=main.css.map */
