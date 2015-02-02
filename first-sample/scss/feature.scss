@@ -1,4 +1,103 @@
+@mixin common-section {
+    max-width: 100em;
+    margin: 0 auto;
+}
+
 section.feature {
-     @include common-section();
+    @include common-section();
+    text-align: center; 
+    margin-top: 2em;
+    ul {
+        margin-top: 2em;
+         -webkit-column-count: 2;
+        li {
+            margin-top: 2em;
+            
+            li{
+                padding-left: 0px;
+                i {
+                color: #FF8C00;
+                font-size: 2em;
+                line-height: 2;
+                }
+                 p {
+                font-weight: bold;
+                font-size: 1.3em;
+                }
+                span {
+                    font-family: fantasy;
+                    text-align: left; 
+                    text-align: center;
+                }
+            }
+       }
+    }
     
+    .line {
+        width: 100%;
+        margin: 0 auto;
+        height: 1px;
+        background-color: #ccc;
+        overflow: hidden;
+        line-height: 1px;
+        border: 1px solid #ccc;
+        border-bottom: none;
+    }
+}
+
+section.what-people-say {
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 2em;
+    form {
+        text-align: center;
+        span{
+            
+            border: 1px #CCC solid;
+            line-height: 2em;
+            font-size: 2em;
+            padding: 2px 2px;
+            display: inline-block;
+            margin-right: 0px;
+            &.current {
+                background: gray;
+                color: white;
+            }
+        }
+        
+        p {
+            &.categary{
+                margin: 3em;
+                font-size: 1.2em;
+            }
+            
+            &.position {
+              color: gray;
+            }
+        }
+        ul {
+            -webkit-column-count: 3;
+            text-align: center;
+            li {
+                width: 4em;
+                height: 4em;
+                img {
+                    border-radius: 50%;
+                    border: 1px #ccc solid;
+                    width: 100%;
+                    height: auto;
+                    margin-left: 8em;
+                }
+                .relate{
+                    background-color: rgba(255,0,0,0.5);
+                    filter:alpha(opacity=60);
+                    opacity:.3;
+                }
+            }   
+        }
+        .text {
+            height: 2em;
+        }
+    }
 }

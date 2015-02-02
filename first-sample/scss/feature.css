@@ -1,2 +1,94 @@
+/* line 6, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+section.feature {
+  max-width: 100em;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2em; }
+  /* line 10, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+  section.feature ul {
+    margin-top: 2em;
+    -webkit-column-count: 2; }
+    /* line 13, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+    section.feature ul li {
+      margin-top: 2em; }
+      /* line 16, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+      section.feature ul li li {
+        padding-left: 0px; }
+        /* line 18, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+        section.feature ul li li i {
+          color: #FF8C00;
+          font-size: 2em;
+          line-height: 2; }
+        /* line 23, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+        section.feature ul li li p {
+          font-weight: bold;
+          font-size: 1.3em; }
+        /* line 27, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+        section.feature ul li li span {
+          font-family: fantasy;
+          text-align: left;
+          text-align: center; }
+  /* line 36, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+  section.feature .line {
+    width: 100%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #ccc;
+    overflow: hidden;
+    line-height: 1px;
+    border: 1px solid #ccc;
+    border-bottom: none; }
+
+/* line 48, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+section.what-people-say {
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 2em; }
+  /* line 53, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+  section.what-people-say form {
+    text-align: center; }
+    /* line 55, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+    section.what-people-say form span {
+      border: 1px #CCC solid;
+      line-height: 2em;
+      font-size: 2em;
+      padding: 2px 2px;
+      display: inline-block;
+      margin-right: 0px; }
+      /* line 63, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+      section.what-people-say form span.current {
+        background: gray;
+        color: white; }
+    /* line 70, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+    section.what-people-say form p.categary {
+      margin: 3em;
+      font-size: 1.2em; }
+    /* line 75, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+    section.what-people-say form p.position {
+      color: gray; }
+    /* line 79, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+    section.what-people-say form ul {
+      -webkit-column-count: 3;
+      text-align: center; }
+      /* line 82, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+      section.what-people-say form ul li {
+        width: 4em;
+        height: 4em; }
+        /* line 85, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+        section.what-people-say form ul li img {
+          border-radius: 50%;
+          border: 1px #ccc solid;
+          width: 100%;
+          height: auto;
+          margin-left: 8em; }
+        /* line 92, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+        section.what-people-say form ul li .relate {
+          background-color: rgba(255, 0, 0, 0.5);
+          filter: alpha(opacity=60);
+          opacity: 0.3; }
+    /* line 99, /Users/ccsong/threepages/sonncui.github.io/first-sample/scss/feature.scss */
+    section.what-people-say form .text {
+      height: 2em; }
 
 /*# sourceMappingURL=feature.css.map */
